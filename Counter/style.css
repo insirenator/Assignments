@@ -1,0 +1,45 @@
+#title{
+	font-size: 20px;
+}
+#count-el {
+	font-size: 70px;
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-color: black;
+	border-radius: 20px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#incBtn {
+	background-color: red;
+	border-color: red;
+}
+
+#decBtn {
+	background-color: green;
+	border-color: green;
+}
+
+#incBtn, #decBtn, #resBtn{
+	border-radius: 5px;
+	margin: 5px;
+	border-width: 2px;
+	border-style: None;
+}
+
+#incBtn, #decBtn {
+	width : 50px;
+	color: white;
+}
+
+.btn:active {
+	background-color: rgb(16, 16, 16);
+}
