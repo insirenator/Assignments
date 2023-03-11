@@ -1,5 +1,5 @@
 // Returns array
-function sum_even_odd1(arr) {
+function sum_even_odd(arr) {
 	let evenSum = 0,
 		oddSum = 0;
 
@@ -17,7 +17,7 @@ function sum_even_odd1(arr) {
 
 let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 
-const [evenSum, oddSum] = sum_even_odd1(arr);
+const [evenSum, oddSum] = sum_even_odd(arr);
 
 console.log("ARRAY = ", arr);
 console.log("EVEN SUM = ", evenSum);
