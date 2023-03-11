@@ -7,3 +7,11 @@ let marr = [
 console.log(marr);
 console.log(marr[1]);
 console.log(marr[2][3]);
+
+let t = [
+	["ankit", 12],
+	["shakeeb", 14],
+	["divjot", 16],
+];
+
+console.table(t);
