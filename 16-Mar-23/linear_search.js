@@ -1,13 +1,15 @@
 function linearSearch(arr, num) {
 
-	for (const i of arr){
-		if (i === num)
-			return arr.indexOf(i)
-	}
+	let index = -1
 
-	return -1;
+	arr.forEach((val, idx) => {
+		if (val === num)
+			index = idx
+	});
+
+	return index
 }
 
-let i = linearSearch([1,2,3,4,5], 3);
+let i = linearSearch([1,2,3,4,5], 10);
 
 console.log(i);
