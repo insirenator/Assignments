@@ -1,4 +1,3 @@
-
 // Closure
 let user = function() {
 	let name = 'john',
