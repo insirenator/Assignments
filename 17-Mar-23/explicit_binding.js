@@ -12,3 +12,4 @@ function mod() {
 let m = mod.bind(vector);
 
 console.log(m());
+
