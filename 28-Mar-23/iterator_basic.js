@@ -9,7 +9,7 @@ const data = [
 ];
 
 // We can get an iterator form an Array using .values() method
-let iter = data.values();
+let iter = data[Symbol.iterator]();
 
 // Each item can be accessed using .next() method
 // It returns an object in the form {value, done}

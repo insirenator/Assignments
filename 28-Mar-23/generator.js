@@ -1,12 +1,18 @@
 // Generators
-
 function* rainbow() {
+	console.log('1');
 	yield 'red';
+	console.log('1');
 	yield 'orange';
+	console.log('1');
 	yield 'yellow';
+	console.log('1');
 	yield 'green';
+	console.log('1');
 	yield 'blue';
+	console.log('1');
 	yield 'indigo';
+	console.log('1');
 	yield 'violet';
 }
 
