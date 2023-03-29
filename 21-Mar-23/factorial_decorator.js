@@ -34,7 +34,6 @@ function cacheDecorator(func) {
 }
 
 factorial = cacheDecorator(factorial);
-
 console.log(factorial(3));
 console.log();
 console.log(factorial(4));
